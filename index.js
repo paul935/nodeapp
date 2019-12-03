@@ -6,9 +6,8 @@ app.listen(8080, () => {
 
 
 app.get("/", (req, res, next) => {
-    res.json("Hello Paul");
+    res.json("Hello World This is my First Node.js App ");
 });
-
 app.get("/paul", (req, res, next) => {
     res.json("Paul");
 });
